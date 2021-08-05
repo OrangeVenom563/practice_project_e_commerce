@@ -1,0 +1,49 @@
+const INITIAL_STATE = {
+  sections: [
+    {
+      title: "HATS",
+      imageUrl:
+        "https://upgradedhome.com/wp-content/uploads/2021/03/shutterstock_1790483456.jpg",
+      id: 1,
+      linkUrl: "hats",
+    },
+    {
+      title: "JACKETS",
+      imageUrl:
+        "https://media.wired.com/photos/606ce52941bf976945513469/191:100/w_2086,h_1092,c_limit/Gear-Cloudburst-Jacket---Mandarin-Front-square-grey-back.jpg",
+      id: 2,
+      linkUrl: "",
+    },
+    {
+      title: "SNEAKERS",
+      imageUrl:
+        "https://media.gq.com/photos/5d93aa2c636d4800084025ae/16:9/pass/sneakers.jpg",
+      id: 3,
+      linkUrl: "",
+    },
+    {
+      title: "WOMENS",
+      imageUrl:
+        "https://c4.wallpaperflare.com/wallpaper/828/961/289/photography-women-model-landscape-car-mercedes-benz-vintage-car-see-through-clothing-wallpaper-preview.jpg",
+      size: "large",
+      id: 4,
+      linkUrl: "",
+    },
+    {
+      title: "MENS",
+      imageUrl:
+        "https://images.unsplash.com/photo-1550246140-29f40b909e5a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVuJTIwZmFzaGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
+      size: "large",
+      id: 5,
+      linkUrl: "",
+    },
+  ]
+};
+
+const directoryReducer = (state = INITIAL_STATE, action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
+};
+export default directoryReducer;
