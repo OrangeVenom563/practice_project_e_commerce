@@ -5,3 +5,4 @@ const ShopPage = () => <CollectionOverview/>
 
 
 export default ShopPage;
+ 
