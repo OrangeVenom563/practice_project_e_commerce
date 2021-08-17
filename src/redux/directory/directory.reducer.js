@@ -1,42 +1,37 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: "HATS",
-      imageUrl:
-        "https://upgradedhome.com/wp-content/uploads/2021/03/shutterstock_1790483456.jpg",
+      title: 'hats',
+      imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
       id: 1,
-      linkUrl: "shop/hats",
+      linkUrl: 'shop/hats'
     },
     {
-      title: "JACKETS",
-      imageUrl:
-        "https://media.wired.com/photos/606ce52941bf976945513469/191:100/w_2086,h_1092,c_limit/Gear-Cloudburst-Jacket---Mandarin-Front-square-grey-back.jpg",
+      title: 'jackets',
+      imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
       id: 2,
-      linkUrl: "shop/jackets",
+      linkUrl: 'shop/jackets'
     },
     {
-      title: "SNEAKERS",
-      imageUrl:
-        "https://media.gq.com/photos/5d93aa2c636d4800084025ae/16:9/pass/sneakers.jpg",
+      title: 'sneakers',
+      imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
       id: 3,
-      linkUrl: "shop/sneakers",
+      linkUrl: 'shop/sneakers'
     },
     {
-      title: "WOMENS",
-      imageUrl:
-        "https://c4.wallpaperflare.com/wallpaper/828/961/289/photography-women-model-landscape-car-mercedes-benz-vintage-car-see-through-clothing-wallpaper-preview.jpg",
-      size: "large",
+      title: 'womens',
+      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+      size: 'large',
       id: 4,
-      linkUrl: "shop/womens",
+      linkUrl: 'shop/womens'
     },
     {
-      title: "MENS",
-      imageUrl:
-        "https://images.unsplash.com/photo-1550246140-29f40b909e5a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVuJTIwZmFzaGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
-      size: "large",
+      title: 'mens',
+      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+      size: 'large',
       id: 5,
-      linkUrl: "shop/mens",
-    },
+      linkUrl: 'shop/mens'
+    }
   ]
 };
 
@@ -46,4 +41,5 @@ const directoryReducer = (state = INITIAL_STATE, action) => {
       return state;
   }
 };
+
 export default directoryReducer;
