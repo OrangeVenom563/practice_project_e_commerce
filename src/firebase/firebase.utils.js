@@ -3,13 +3,13 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const config = {
-  apiKey: "AIzaSyDeFXLm3UqCTQ3H2epiACP2K1WqUiAn81k",
-  authDomain: "orangeapp-15d80.firebaseapp.com",
-  projectId: "orangeapp-15d80",
-  storageBucket: "orangeapp-15d80.appspot.com",
-  messagingSenderId: "235051092499",
-  appId: "1:235051092499:web:f964ac6c0ad58938bbcde6",
-  measurementId: "G-16HEVNVECM",
+  apiKey: "AIzaSyASuxzahBSrSXk2Si3Fnhx4d2-lZPOBO9c",
+  authDomain: "thirtydays-77757.firebaseapp.com",
+  projectId: "thirtydays-77757",
+  storageBucket: "thirtydays-77757.appspot.com",
+  messagingSenderId: "300326259752",
+  appId: "1:300326259752:web:e1f3ba82ff74523c1fb91d",
+  measurementId: "G-V67ESF58KP"
 };
 
 firebase.initializeApp(config);
